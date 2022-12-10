@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" /></link>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="main-header">
+    <div class="main-header-top-bar">
+    <a href="http://localhost:3000/"><img src="/image/logo-mercado-liebre.svg" alt="logo mercado liebre" class="logo"></a>
+    
+    <div class="BarraBuscadora">
+        <form action="../../form.result.php" method="post" target="_blank">
+            <p> 
+                <input type="search" name="Buscar productos" placeholder="Buscar productos, marcas">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </p>
+        </form>
+        
+    </div>
+    <h2 class="copy-header"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</h2>
+    </div>
+    <nav class="main-navbar">
+        <ul class="izquierda-navbar">
+            <li><a href=#>Ofertas</a></li>
+            <li><a href=#>Tiendas Oficiales</a></li>
+            <li><a href=#>Vender</a></li>
+            <li><a href=#>Ayuda</a></li>
+        </ul>
+        <ul class="derecha-navbar">
+            <li><a href="/register">Creá tu cuenta</a> <i class="fas fa-sign-in-alt"></i></li>
+            <li><a href="/login">Ingresá</a> <i class="fas fa-id-card"></i></li>
+            <li><a href=#>Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
+    </nav>
+    <div class="burger-menu"><i class="fas fa-bars"></i></div>
+    </header>
+    <form action="" method="post" class="formulario">
+    <div class="elemento-formulario">
+        <label for="nombreYapellido"></label>
+        <input type="text" name="nombreYapellido" placeholder="Nombre y Apellido" class="control">
+    
+    </div>
+    <div class="elemento-formulario">
+       <label for="nombreDeUsuario"></label>
+        <input type="text" name="nombreDeUsuario" placeholder="Nombre de usuario" class="control">
+    </div>
+    <div class="elemento-formulario">
+    <label for="" class="titulo-intereses"></label> <br>
+        <input type="email" name="email" placeholder="E-mail" class="control">
+    </div>
+        <div class="elemento-formulario">
+        <label for="fechaDeNacimiento" class="titulo-intereses">Fecha De Nacimiento:</label><br>
+        <input type="date" name="fechaDeNacimiento" placeholder="Fecha de Nacimiento" class="control">
+    </div>
+        <div class="elemento-formulario">
+    <form action="" method="post">
+        <label for="Domicilio"></label>
+        <input type="text" name="Domicilio" placeholder="Domicilio" class="control">
+    </div>
+    <div class="elemento-formulario">
+    <label for="" class="titulo-intereses">Perfil del usuario</label> <br>    
+    <label for="">Comprador</label>
+    <input type="radio" name="Perfil del usuario", placeholder="Perfil del usuario" class="control">
+    <label for="">Vendedor</label>
+    <input type="radio" name="Perfil del usuario", placeholder="Perfil del usuario" class="control">
+    </div>
+    <div class="elemento-formulario">
+        <label for="" class="titulo-intereses">Intereses</label> <br>
+        <input type="checkbox" name="Intereses", value="Electro" class="sub-interes"> Electro <br>
+        <input type="checkbox" name="Intereses", value="Moda" class="sub-interes"> Moda <br>
+        <input type="checkbox" name="Intereses", value="Hogar" class="sub-interes"> Hogar <br>
+        <input type="checkbox" name="Intereses", value="Jugeteria" class="sub-interes"> Jugeteria <br>
+        <input type="checkbox" name="Intereses", value="Vida Sana" class="sub-interes"> Vida Sana <br>
+        
+        </div>
+
+    <div>
+    <button type="submit" class="boton-formulario">Enviar</button>
+    <button type="reset" class="boton-formulario">Borrar</button>    
+    </div>
+    </form> 
+    
+
+    
